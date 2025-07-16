@@ -20,7 +20,7 @@ export class TranslationLoaderService {
     // Add more files as needed
   ];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   /**
    * Load all translation files for a specific language
@@ -69,8 +69,8 @@ export class TranslationLoaderService {
    */
   getAvailableLanguages(): string[] {
     return [
-      'de',
       'en-US',
+      'de',
       'es',
       'fr-ca',
       'fr',

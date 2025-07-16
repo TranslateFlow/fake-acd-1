@@ -114,8 +114,8 @@ export class LanguageSelectorComponent implements OnInit {
   loading$: Observable<boolean>;
 
   private languageNames: { [key: string]: string } = {
-    'de': 'Deutsch',
     'en-US': 'English (US)',
+    'de': 'Deutsch',
     'es': 'Español',
     'fr-ca': 'Français (Canada)',
     'fr': 'Français',
